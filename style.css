@@ -1,9 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
+    margin: 0;
+    padding: 0;
     height: 100vh;
     background-color: black;
 }
@@ -37,6 +38,7 @@ h1{
     color: white;
     text-align: center;
     margin-top: 10px;
+    padding-bottom: 20px;
     margin-bottom: -5px;
     font-size: 2.8rem;
     text-shadow: 0 0 15px white;
@@ -68,13 +70,89 @@ button{
 }
 
 #container{
-    margin: 20px auto;
-    height: 400px;
-    width: 418px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 85%;
     padding-left: 120px;
 }
 
 #container :last-child{
     margin-left: 105px;
     margin-top: 18px;
+}
+
+@media screen and (max-width : 600px) {
+    #max{
+    height: 50px ;
+    width: 100px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 5px double yellow;
+    padding: 5px;
+    text-align: center;
+}
+#grid{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    width: 380px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Score-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    width: 100%;
+}
+h1{
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: 2rem;
+    text-shadow: 0 0 15px white;
+}
+
+button{
+    padding: 20px;
+    border-radius: 30px;
+    width: 90px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 17px;
+    box-shadow: 0 0 7px white;
+    background-color: yellow;
+}
+
+#result{
+    padding: 10px;
+    border: 2px double black;
+    text-align: center;
+    height: 200px;
+    width: 409px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: floralwhite;
+    box-shadow: 0 0 7px white;
+    margin: 20px auto ;
+}
+
+#container{
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+    padding-left: 78px;
+}
+
+#container :last-child{
+    margin-left: 100px;
+    margin-top: 18px;
+}
+    
 }
