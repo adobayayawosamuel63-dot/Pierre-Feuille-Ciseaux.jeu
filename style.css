@@ -147,7 +147,8 @@ button{
     margin: 0 !important;
     height: 300px;
     width: 380px;
-    padding-left: -4px !important;
+    padding-left: 0px !important;
+    margin: -3px !important;
 }
 
 #container :last-child{
