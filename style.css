@@ -123,7 +123,7 @@ button{
     width: 90px;
     height: 70px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     box-shadow: 0 0 7px white;
     background-color: yellow;
 }
@@ -150,8 +150,8 @@ button{
 }
 
 #container :last-child{
-    margin-left: 100px;
-    margin-top: 18px;
+    margin-left: 20px;
+    margin-top: 14px;
 }
     
 }
