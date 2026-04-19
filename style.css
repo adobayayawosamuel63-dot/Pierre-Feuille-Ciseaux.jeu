@@ -151,8 +151,8 @@ button{
 }
 
 #container :last-child{
-    margin-top: 0px;
-    margin-left: 5px;
+    margin-top: 0px !important;
+    margin-left: 5px !important;
 
 }
     
